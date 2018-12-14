@@ -7,6 +7,9 @@ plugins:
     - trigger
   kyma-project/test-infra:
     - config-updater
+  polskikiel/bundles:
+    - cat
+    - trigger
 
 config_updater:
   config_file: prow/config.yaml
