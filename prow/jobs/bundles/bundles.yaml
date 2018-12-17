@@ -13,7 +13,7 @@ job_template: &job_template
         securityContext:
           privileged: true
         command:
-          - "/home/prow/go/src/github.com/kyma-project/test-infra/prow/scripts/build-bundles.sh"
+          - "/home/prow/go/src/github.com/polskikiel/test-infra/prow/scripts/build-bundles.sh"
         args:
           - "/home/prow/go/src/github.com/kyma-project/bundles"
 
