@@ -352,7 +352,7 @@ createTestResources() {
     shout "Create e2e upgrade test resources"
     date
 
-    injectTestingBundles
+    injectTestingAddons
 
     if [  -f "$(helm home)/ca.pem" ]; then
         local HELM_ARGS="--tls"
